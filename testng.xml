@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loans">
-    <!--    <test verbose="2" preserve-order="true" name="Personal loan">-->
-    <!--        <classes>-->
-    <!--            <class name="tests.video129_1"/>-->
-    <!--            <class name="tests.video130_1"/>-->
-    <!--        </classes>-->
-    <!--    </test>-->
-    <!--Different module for home loan-->
+        <test verbose="2" preserve-order="true" name="Personal loan">
+            <classes>
+                <class name="tests.video129_1"/>
+                <class name="tests.video130_1"/>
+            </classes>
+        </test>
+    Different module for home loan
     <test name="Home loan">
         <classes>
             <class name="tests.video131_2">

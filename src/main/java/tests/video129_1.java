@@ -1,11 +1,12 @@
 package tests;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class video129_1 {
-    @Test
+    @AfterTest
     public void demo(){
-        System.out.println("Hello");
+        System.out.println("hello --- AfterTest");
     }
     @Test
     public void demo2(){
