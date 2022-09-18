@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class video131_1 {
@@ -8,9 +9,9 @@ public class video131_1 {
         System.out.println("VIDEO131_1: Web");
     }
 
-    @Test
+    @BeforeTest
     public void mobileLogIn(){
-        System.out.println("VIDEO131_1: Mobile login");
+        System.out.println("VIDEO131_1: Mobile login --- BEFORE TEST");
     }
 
     @Test

@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class video131_2 {
@@ -13,8 +14,8 @@ public class video131_2 {
         System.out.println("VIDEO131_2: mobileLogIn Home");
     }
 
-    @Test
+    @AfterTest
     public void loginAPIHome(){
-        System.out.println("VIDEO131_2: loginAPI Home");
+        System.out.println("VIDEO131_2: loginAPI Home ---- AfterTest");
     }
 }
