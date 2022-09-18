@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6b18af-6abf-41de-a314-2d257c3a4037" name="Changes" comment="Added a new test case">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/video130_1.java" afterDir="false" />
+    <list default="true" id="7b6b18af-6abf-41de-a314-2d257c3a4037" name="Changes" comment="Adding more classes to learn how testing XML works">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/video131_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/video131_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/video131_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +45,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG.X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng.xml">
     <configuration name="X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG Practice" />
@@ -143,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663484042596</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding more classes to learn how testing XML works">
+      <created>1663486531024</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663486531024</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +176,7 @@
     <MESSAGE value="video 129: Adding testNG annotations" />
     <MESSAGE value="Added testNG xml file" />
     <MESSAGE value="Added a new test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new test case" />
+    <MESSAGE value="Adding more classes to learn how testing XML works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding more classes to learn how testing XML works" />
   </component>
 </project>
