@@ -8,22 +8,29 @@
 <!--        </classes>-->
 <!--    </test>-->
 <!--Different module for home loan-->
-    <test name="Home loan">
-        <classes>
-            <class name="tests.video131_2">
-<!--                methods-->
-                <methods>
-                    <exclude name="mobileLogInHome"/>
-                </methods>
-            </class>
+<!--    <test name="Home loan">-->
+<!--        <classes>-->
+<!--            <class name="tests.video131_2">-->
+<!--&lt;!&ndash;                methods&ndash;&gt;-->
+<!--                <methods>-->
+<!--                    <exclude name="mobileLogInHome"/>-->
+<!--                </methods>-->
+<!--            </class>-->
 
-                <class name="tests.video131_1">
-                    <methods>
-                        <include name="mobile.*"/>
-                    </methods>
-                </class>
+<!--                <class name="tests.video131_1">-->
+<!--                    <methods>-->
+<!--                        <include name="mobile.*"/>-->
+<!--                    </methods>-->
+<!--                </class>-->
 
 
-        </classes>
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Personal loan">
+        <packages>
+            <package name="tests"/>
+        </packages>
     </test>
+
 </suite>
