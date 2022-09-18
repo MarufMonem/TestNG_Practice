@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6b18af-6abf-41de-a314-2d257c3a4037" name="Changes" comment="Adding more classes to learn how testing XML works">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/video131_2.java" afterDir="false" />
+    <list default="true" id="7b6b18af-6abf-41de-a314-2d257c3a4037" name="Changes" comment="Updated the XML to exclude a certain method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tests/video131_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/video131_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/video131_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/video131_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663486531024</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added more methods">
+      <created>1663488437776</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663488437776</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated the XML to exclude a certain method">
+      <created>1663488472833</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663488472833</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +192,8 @@
     <MESSAGE value="Added testNG xml file" />
     <MESSAGE value="Added a new test case" />
     <MESSAGE value="Adding more classes to learn how testing XML works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding more classes to learn how testing XML works" />
+    <MESSAGE value="Added more methods" />
+    <MESSAGE value="Updated the XML to exclude a certain method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the XML to exclude a certain method" />
   </component>
 </project>

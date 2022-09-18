@@ -17,6 +17,13 @@
                 </methods>
             </class>
 
+                <class name="tests.video131_1">
+                    <methods>
+                        <include name="mobile.*"/>
+                    </methods>
+                </class>
+
+
         </classes>
     </test>
 </suite>
