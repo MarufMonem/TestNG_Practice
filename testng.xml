@@ -7,7 +7,7 @@
                 <class name="tests.video130_1"/>
             </classes>
         </test>
-    Different module for home loan
+<!--    Different module for home loan-->
     <test name="Home loan">
         <classes>
             <class name="tests.video131_2">

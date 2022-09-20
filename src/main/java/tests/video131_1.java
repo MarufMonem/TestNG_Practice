@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -19,4 +20,11 @@ public class video131_1 {
     public void mobileloginAPI(){
         System.out.println("VIDEO131_1: MobileloginAPI");
     }
+
+    @Test(groups = {"Smoke"})
+    public void grouping2(){
+        System.out.println("Grouping TCs -- video131_1");
+    }
+
+
 }
