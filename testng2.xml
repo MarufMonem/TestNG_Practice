@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loans">
+    <test name="Regression">
+        <groups >
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.video129_1"/>
+            <class name="tests.video130_1"/>
+            <class name="tests.video131_1"/>
+            <class name="tests.video131_2"/>
+        </classes>
+    </test>
+</suite>

@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6b18af-6abf-41de-a314-2d257c3a4037" name="Changes" comment="After test from different folders">
+    <list default="true" id="7b6b18af-6abf-41de-a314-2d257c3a4037" name="Changes" comment="Before and after class, before and after methods">
+      <change afterPath="$PROJECT_DIR$/testng2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/video129_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/video129_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/video131_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/video131_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/video130_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/video130_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tests/video131_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/video131_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng1.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;X:/Self improvement/Selenium Udemy/Code/TestNG Practice&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -47,14 +47,17 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\Self improvement\Selenium Udemy\Code\TestNG Practice" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng.xml">
-    <configuration name="X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng1.xml">
+    <configuration name="X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG Practice" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng1.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -62,12 +65,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="helloWorld.demo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG Practice" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="helloWorld" />
-      <option name="METHOD_NAME" value="demo" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng2.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG Practice" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -99,10 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng1.xml" />
+        <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng2.xml" />
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng.xml" />
         <item itemvalue="TestNG.video129_1" />
         <item itemvalue="TestNG.video129_1.demo" />
-        <item itemvalue="TestNG.helloWorld.demo" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663506194260</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Before and after class, before and after methods">
+      <created>1663648590745</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663648590745</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +245,7 @@
     <MESSAGE value="Using packages in testNG XML" />
     <MESSAGE value="Before and after test annotations" />
     <MESSAGE value="After test from different folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="After test from different folders" />
+    <MESSAGE value="Before and after class, before and after methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Before and after class, before and after methods" />
   </component>
 </project>

@@ -5,43 +5,42 @@ import org.testng.annotations.*;
 
 public class video131_2 {
 
-    @BeforeMethod
-    public void beforeMethod(){
-        System.out.println("I execute before every method in the test class");
-    }
+//    public void beforeMethod(){
+//        System.out.println("I execute before every method in the test class");
+//    }
     @Test
-    public void webLogInHome(){
-        System.out.println("VIDEO131_2: WebLogIn Home");
+    public void AwebLogInHome(){
+        System.out.println("VIDEO131_2: A");
     }
 
     @Test
-    public void mobileLogInHome(){
-        System.out.println("VIDEO131_2: mobileLogIn Home");
+    public void BmobileLogInHome(){
+        System.out.println("VIDEO131_2: B");
     }
 
-    @AfterTest
-    public void loginAPIHome(){
-        System.out.println("VIDEO131_2: loginAPI Home ---- AfterTest");
+    @Test
+    public void CloginAPIHome(){
+        System.out.println("VIDEO131_2: C");
     }
 
-    @BeforeSuite
-    public void beforeSuite(){
-        System.out.println("Before Suite -- video131_2");
+    @Test(dependsOnMethods = {"EbeforeSuite", "CloginAPIHome"})
+    public void DbeforeSuite(){
+        System.out.println("VIDEO131_2: D");
     }
 
-    @BeforeClass
-    public void beforeClass(){
-        System.out.println("Before class -- video131_2");
+    @Test
+    public void EbeforeSuite(){
+        System.out.println("VIDEO131_2: E");
     }
 
-    @AfterClass
-    public void afterClass(){
-        System.out.println("After Class -- video131_2");
+    @Test(enabled = false)
+    public void FafterClass(){
+        System.out.println("VIDEO131_2: F");
     }
 
     @Test(groups = {"Smoke"})
-    public void grouping1(){
-        System.out.println("Grouping TCs -- video131_2");
+    public void Ggrouping1(){
+        System.out.println("VIDEO131_2: G");
     }
 
 //    @Test
