@@ -28,7 +28,7 @@ public class video131_2 {
         System.out.println("VIDEO131_2: D");
     }
 
-    @Test
+    @Test(timeOut = 4000)
     public void EbeforeSuite(){
         System.out.println("VIDEO131_2: E");
     }

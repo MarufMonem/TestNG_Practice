@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6b18af-6abf-41de-a314-2d257c3a4037" name="Changes" comment="Before and after class, before and after methods">
-      <change afterPath="$PROJECT_DIR$/testng2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/video130_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/video130_1.java" afterDir="false" />
+    <list default="true" id="7b6b18af-6abf-41de-a314-2d257c3a4037" name="Changes" comment="Depends on and enabled annotation">
       <change beforePath="$PROJECT_DIR$/src/main/java/tests/video131_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/video131_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng1.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663648590745</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Depends on and enabled annotation">
+      <created>1663901495140</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663901495140</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +249,7 @@
     <MESSAGE value="Before and after test annotations" />
     <MESSAGE value="After test from different folders" />
     <MESSAGE value="Before and after class, before and after methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Before and after class, before and after methods" />
+    <MESSAGE value="Depends on and enabled annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Depends on and enabled annotation" />
   </component>
 </project>
