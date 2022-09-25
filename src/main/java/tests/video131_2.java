@@ -47,10 +47,10 @@ public class video131_2 {
 
     }
 
-    @Test
-    public void boundToFail(){
-        Assert.fail();
-    }
+//    @Test
+//    public void boundToFail(){
+//        Assert.fail();
+//    }
 
     @DataProvider
     public Object[][] getData(){
