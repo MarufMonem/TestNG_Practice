@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loans">
+    <parameter name="URL1" value="qa1clickacademy.com"/>
 <!--        <test verbose="2" preserve-order="true" name="Personal loan">-->
 <!--            <classes>-->
 <!--                <class name="tests.video129_1"/>-->
@@ -9,6 +10,8 @@
 <!--        </test>-->
 <!--    Different module for home loan-->
     <test name="Home loan">
+        <parameter name="URL2" value="qa2clickacademy.com"/>
+        <parameter name="APIkey" value="123456"/>
         <classes>
             <class name="tests.video131_2">
             </class>

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6b18af-6abf-41de-a314-2d257c3a4037" name="Changes" comment="Depends on and enabled annotation">
+    <list default="true" id="7b6b18af-6abf-41de-a314-2d257c3a4037" name="Changes" comment="Timeout annotation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tests/video131_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/video131_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng1.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663901495140</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Timeout annotation">
+      <created>1663901987559</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663901987559</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +259,7 @@
     <MESSAGE value="After test from different folders" />
     <MESSAGE value="Before and after class, before and after methods" />
     <MESSAGE value="Depends on and enabled annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Depends on and enabled annotation" />
+    <MESSAGE value="Timeout annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Timeout annotation" />
   </component>
 </project>
