@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6b18af-6abf-41de-a314-2d257c3a4037" name="Changes" comment="TestNG Listeners">
+    <list default="true" id="7b6b18af-6abf-41de-a314-2d257c3a4037" name="Changes" comment="Parallel testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/video129_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/video129_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/video131_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/video131_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +54,18 @@
   <component name="RunManager" selected="TestNG.X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng1.xml">
     <configuration name="X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG Practice" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng1.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -107,6 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.video129_1" />
+      <item itemvalue="TestNG.video129_1.demo" />
+      <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng.xml" />
+      <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng1.xml" />
+      <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng2.xml" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.X:/Self improvement/Selenium Udemy/Code/TestNG Practice/testng1.xml" />
@@ -245,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664085028301</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Parallel testing">
+      <created>1664086625677</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664086625677</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +300,7 @@
     <MESSAGE value="Parameterising and data driven annotations" />
     <MESSAGE value="Listeners" />
     <MESSAGE value="TestNG Listeners" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG Listeners" />
+    <MESSAGE value="Parallel testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parallel testing" />
   </component>
 </project>

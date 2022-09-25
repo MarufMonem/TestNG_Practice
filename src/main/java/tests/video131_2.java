@@ -44,6 +44,12 @@ public class video131_2 {
     @Test(groups = {"Smoke"})
     public void Ggrouping1(){
         System.out.println("VIDEO131_2: G");
+
+    }
+
+    @Test
+    public void boundToFail(){
+        Assert.fail();
     }
 
     @DataProvider
@@ -63,10 +69,5 @@ public class video131_2 {
 
         return data;
     }
-
-//    @Test
-//    public void boundToFail(){
-//        Assert.assertTrue(false);
-//    }
 
 }

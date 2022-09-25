@@ -5,12 +5,12 @@
         <listener class-name="tests.listeners"/>
     </listeners>
     <parameter name="URL1" value="qa1clickacademy.com"/>
-        <test name="Personal loan" parallel="classes" thread-count="2">
-            <classes>
-                <class name="tests.video129_1"/>
-                <class name="tests.video130_1"/>
-            </classes>
-        </test>
+<!--        <test name="Personal loan" parallel="classes" thread-count="2">-->
+<!--            <classes>-->
+<!--                <class name="tests.video129_1"/>-->
+<!--                <class name="tests.video130_1"/>-->
+<!--            </classes>-->
+<!--        </test>-->
 <!--    Different module for home loan-->
     <test name="Home loan">
         <parameter name="URL2" value="qa2clickacademy.com"/>
