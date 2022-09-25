@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Loans">
+<suite name="Loans" parallel="tests" thread-count="2">
     <listeners>
         <listener class-name="tests.listeners"/>
     </listeners>
     <parameter name="URL1" value="qa1clickacademy.com"/>
-        <test verbose="2" preserve-order="true" name="Personal loan">
+        <test name="Personal loan" parallel="classes" thread-count="2">
             <classes>
                 <class name="tests.video129_1"/>
                 <class name="tests.video130_1"/>

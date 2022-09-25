@@ -15,7 +15,7 @@ public class listeners implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult result) {
         ITestListener.super.onTestSuccess(result);
-        System.out.println("The test case passed");
+        System.out.println("-------> The test case passed for : " + result.getName());
     }
 
     @Override
